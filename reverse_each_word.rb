@@ -4,5 +4,5 @@ def reverse_each_word (sentence)
   new_array = sentence.split(" ")
   binding.pry
   
-  new_array.each 
+  new_array.each |n|
 end
