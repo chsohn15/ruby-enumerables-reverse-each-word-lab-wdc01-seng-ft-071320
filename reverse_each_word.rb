@@ -5,7 +5,6 @@ def reverse_each_word (sentence)
 
   
   new_array.collect {|n| n.reverse!}
-  end
-
+  binding.pry
   new_array.join(' ')
 end
